@@ -10,7 +10,10 @@ It’s a Raptors Tickets app that can be used to purchase tickets by clicking on
 
 * MVC pattern.
 * Prepare Function.
+* Delegates and DataSource.
 * TableView.
+* Pickerview Controller.
+* Push segue and Module Segue.
 
 ## Features
 
