@@ -4,39 +4,43 @@
 
 
 ## Description
-It’s a Weather app that search for a counrty through an json api and view the current weather thorugh image icon and string.
+It’s a Raptors Tickets app that can be used to purchase tickets by clicking on the number of tickets depending on the picker view remaining tickers and price pair ticket.
 
 ## Functionalities
 
-* Coredata.
-* Weather icon.
-* Weather api.
+* MVC pattern.
+* Prepare Function.
 * TableView.
-* Search.
-* Fetched Result.
-* Predicate.
-* JSON Serialization.
-* JSON Decoder.
-* Service.
-* Icon Type Codable.
-* Asynchronously Thread.
-
 
 ## Features
 
-## **Saved Countries**
+## **Buy Tickets**
 
-<img src="https://github.com/noarrassam/WeatherApp/blob/main/Images/1.png" width="500" height="1000">
+<img src="https://github.com/noarrassam/RaptorsTicketsApp/blob/main/Images/1.png" width="500" height="1000">
 
-## **Search Country**
+## **Manager Panel**
 
-<img src="https://github.com/noarrassam/WeatherApp/blob/main/Images/2.png" width="500" height="1000">
+<img src="https://github.com/noarrassam/RaptorsTicketsApp/blob/main/Images/2.png" width="500" height="1000">
 
-## **Selected Country - Toronto**
+## **Balcony Bought Ticket**
 
-<img src="https://github.com/noarrassam/WeatherApp/blob/main/Images/3.png" width="500" height="1000">
+<img src="https://github.com/noarrassam/RaptorsTicketsApp/blob/main/Images/3.png" width="500" height="1000">
 
 
-## **Current Weather**
+## **CourtSide Bought Weather**
 
-<img src="https://github.com/noarrassam/WeatherApp/blob/main/Images/4.png" width="500" height="1000">
+<img src="https://github.com/noarrassam/RaptorsTicketsApp/blob/main/Images/4.png" width="500" height="1000">
+
+## **History**
+
+<img src="https://github.com/noarrassam/RaptorsTicketsApp/blob/main/Images/5.png" width="500" height="1000">
+
+<img src="https://github.com/noarrassam/RaptorsTicketsApp/blob/main/Images/6.png" width="500" height="1000">
+
+<img src="https://github.com/noarrassam/RaptorsTicketsApp/blob/main/Images/7.png" width="500" height="1000">
+
+## **Reset**
+
+<img src="https://github.com/noarrassam/RaptorsTicketsApp/blob/main/Images/8.png" width="500" height="1000">
+
+
