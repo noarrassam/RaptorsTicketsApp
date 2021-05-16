@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8089E9E254250C8007CE010 /* ResViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8089E9D254250C8007CE010 /* ResViewController.swift */; };
+		F8241A1D25432AD30090B619 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8241A1C25432AD30090B619 /* Purchase.swift */; };
+		F8241A2D25439F830090B619 /* DeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8241A2C25439F830090B619 /* DeViewController.swift */; };
+		F86185B825424E4400DAE95A /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86185B725424E4400DAE95A /* ManagerViewController.swift */; };
+		F86185C525424F3A00DAE95A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86185C425424F3A00DAE95A /* HistoryViewController.swift */; };
+		F861A1442539F1E70080545D /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861A1432539F1E70080545D /* ModelManager.swift */; };
+		F861A152253A4AF30080545D /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861A151253A4AF30080545D /* Ticket.swift */; };
+		F8BA302F2539242C00B9A1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA302E2539242C00B9A1C1 /* AppDelegate.swift */; };
+		F8BA30312539242C00B9A1C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA30302539242C00B9A1C1 /* SceneDelegate.swift */; };
+		F8BA30332539242C00B9A1C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA30322539242C00B9A1C1 /* ViewController.swift */; };
+		F8BA30362539242C00B9A1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BA30342539242C00B9A1C1 /* Main.storyboard */; };
+		F8BA30382539242D00B9A1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BA30372539242D00B9A1C1 /* Assets.xcassets */; };
+		F8BA303B2539242D00B9A1C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BA30392539242D00B9A1C1 /* LaunchScreen.storyboard */; };
+		F8BA30462539242D00B9A1C1 /* RaptorsTicketsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA30452539242D00B9A1C1 /* RaptorsTicketsAppTests.swift */; };
+		F8BA30512539242D00B9A1C1 /* RaptorsTicketsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BA30502539242D00B9A1C1 /* RaptorsTicketsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BA30422539242D00B9A1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BA30232539242C00B9A1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BA302A2539242C00B9A1C1;
+			remoteInfo = RaptorsTicketsApp;
+		};
+		F8BA304D2539242D00B9A1C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BA30232539242C00B9A1C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BA302A2539242C00B9A1C1;
+			remoteInfo = RaptorsTicketsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8089E9D254250C8007CE010 /* ResViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResViewController.swift; sourceTree = "<group>"; };
+		F8241A1C25432AD30090B619 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		F8241A2C25439F830090B619 /* DeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeViewController.swift; sourceTree = "<group>"; };
+		F86185B725424E4400DAE95A /* ManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerViewController.swift; sourceTree = "<group>"; };
+		F86185C425424F3A00DAE95A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F861A1432539F1E70080545D /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		F861A151253A4AF30080545D /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		F8BA302B2539242C00B9A1C1 /* RaptorsTicketsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaptorsTicketsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BA302E2539242C00B9A1C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8BA30302539242C00B9A1C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8BA30322539242C00B9A1C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8BA30352539242C00B9A1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8BA30372539242D00B9A1C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8BA303A2539242D00B9A1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8BA303C2539242D00B9A1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BA30412539242D00B9A1C1 /* RaptorsTicketsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorsTicketsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BA30452539242D00B9A1C1 /* RaptorsTicketsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorsTicketsAppTests.swift; sourceTree = "<group>"; };
+		F8BA30472539242D00B9A1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BA304C2539242D00B9A1C1 /* RaptorsTicketsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaptorsTicketsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BA30502539242D00B9A1C1 /* RaptorsTicketsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorsTicketsAppUITests.swift; sourceTree = "<group>"; };
+		F8BA30522539242D00B9A1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8E58AF32651DAA2002CABE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BA30282539242C00B9A1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BA303E2539242D00B9A1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BA30492539242D00B9A1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8089EC625426B4B007CE010 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F861A1432539F1E70080545D /* ModelManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F8089EC725426B54007CE010 /* Ticket Class */ = {
+			isa = PBXGroup;
+			children = (
+				F8241A1C25432AD30090B619 /* Purchase.swift */,
+				F861A151253A4AF30080545D /* Ticket.swift */,
+			);
+			name = "Ticket Class";
+			sourceTree = "<group>";
+		};
+		F8BA30222539242C00B9A1C1 = {
+			isa = PBXGroup;
+			children = (
+				F8E58AF32651DAA2002CABE4 /* README.md */,
+				F8089EC725426B54007CE010 /* Ticket Class */,
+				F8089EC625426B4B007CE010 /* Model */,
+				F8BA302D2539242C00B9A1C1 /* RaptorsTicketsApp */,
+				F8BA30442539242D00B9A1C1 /* RaptorsTicketsAppTests */,
+				F8BA304F2539242D00B9A1C1 /* RaptorsTicketsAppUITests */,
+				F8BA302C2539242C00B9A1C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BA302C2539242C00B9A1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BA302B2539242C00B9A1C1 /* RaptorsTicketsApp.app */,
+				F8BA30412539242D00B9A1C1 /* RaptorsTicketsAppTests.xctest */,
+				F8BA304C2539242D00B9A1C1 /* RaptorsTicketsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BA302D2539242C00B9A1C1 /* RaptorsTicketsApp */ = {
+			isa = PBXGroup;
+			children = (
+				F8BA30322539242C00B9A1C1 /* ViewController.swift */,
+				F86185C425424F3A00DAE95A /* HistoryViewController.swift */,
+				F86185B725424E4400DAE95A /* ManagerViewController.swift */,
+				F8089E9D254250C8007CE010 /* ResViewController.swift */,
+				F8BA302E2539242C00B9A1C1 /* AppDelegate.swift */,
+				F8BA30302539242C00B9A1C1 /* SceneDelegate.swift */,
+				F8BA30342539242C00B9A1C1 /* Main.storyboard */,
+				F8241A2C25439F830090B619 /* DeViewController.swift */,
+				F8BA30372539242D00B9A1C1 /* Assets.xcassets */,
+				F8BA30392539242D00B9A1C1 /* LaunchScreen.storyboard */,
+				F8BA303C2539242D00B9A1C1 /* Info.plist */,
+			);
+			path = RaptorsTicketsApp;
+			sourceTree = "<group>";
+		};
+		F8BA30442539242D00B9A1C1 /* RaptorsTicketsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BA30452539242D00B9A1C1 /* RaptorsTicketsAppTests.swift */,
+				F8BA30472539242D00B9A1C1 /* Info.plist */,
+			);
+			path = RaptorsTicketsAppTests;
+			sourceTree = "<group>";
+		};
+		F8BA304F2539242D00B9A1C1 /* RaptorsTicketsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BA30502539242D00B9A1C1 /* RaptorsTicketsAppUITests.swift */,
+				F8BA30522539242D00B9A1C1 /* Info.plist */,
+			);
+			path = RaptorsTicketsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8BA302A2539242C00B9A1C1 /* RaptorsTicketsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BA30552539242D00B9A1C1 /* Build configuration list for PBXNativeTarget "RaptorsTicketsApp" */;
+			buildPhases = (
+				F8BA30272539242C00B9A1C1 /* Sources */,
+				F8BA30282539242C00B9A1C1 /* Frameworks */,
+				F8BA30292539242C00B9A1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaptorsTicketsApp;
+			productName = RaptorsTicketsApp;
+			productReference = F8BA302B2539242C00B9A1C1 /* RaptorsTicketsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8BA30402539242D00B9A1C1 /* RaptorsTicketsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BA30582539242D00B9A1C1 /* Build configuration list for PBXNativeTarget "RaptorsTicketsAppTests" */;
+			buildPhases = (
+				F8BA303D2539242D00B9A1C1 /* Sources */,
+				F8BA303E2539242D00B9A1C1 /* Frameworks */,
+				F8BA303F2539242D00B9A1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BA30432539242D00B9A1C1 /* PBXTargetDependency */,
+			);
+			name = RaptorsTicketsAppTests;
+			productName = RaptorsTicketsAppTests;
+			productReference = F8BA30412539242D00B9A1C1 /* RaptorsTicketsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8BA304B2539242D00B9A1C1 /* RaptorsTicketsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BA305B2539242D00B9A1C1 /* Build configuration list for PBXNativeTarget "RaptorsTicketsAppUITests" */;
+			buildPhases = (
+				F8BA30482539242D00B9A1C1 /* Sources */,
+				F8BA30492539242D00B9A1C1 /* Frameworks */,
+				F8BA304A2539242D00B9A1C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BA304E2539242D00B9A1C1 /* PBXTargetDependency */,
+			);
+			name = RaptorsTicketsAppUITests;
+			productName = RaptorsTicketsAppUITests;
+			productReference = F8BA304C2539242D00B9A1C1 /* RaptorsTicketsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BA30232539242C00B9A1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F8BA302A2539242C00B9A1C1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					F8BA30402539242D00B9A1C1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F8BA302A2539242C00B9A1C1;
+					};
+					F8BA304B2539242D00B9A1C1 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = F8BA302A2539242C00B9A1C1;
+					};
+				};
+			};
+			buildConfigurationList = F8BA30262539242C00B9A1C1 /* Build configuration list for PBXProject "RaptorsTicketsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8BA30222539242C00B9A1C1;
+			productRefGroup = F8BA302C2539242C00B9A1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BA302A2539242C00B9A1C1 /* RaptorsTicketsApp */,
+				F8BA30402539242D00B9A1C1 /* RaptorsTicketsAppTests */,
+				F8BA304B2539242D00B9A1C1 /* RaptorsTicketsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BA30292539242C00B9A1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BA303B2539242D00B9A1C1 /* LaunchScreen.storyboard in Resources */,
+				F8BA30382539242D00B9A1C1 /* Assets.xcassets in Resources */,
+				F8BA30362539242C00B9A1C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BA303F2539242D00B9A1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BA304A2539242D00B9A1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BA30272539242C00B9A1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BA30332539242C00B9A1C1 /* ViewController.swift in Sources */,
+				F8BA302F2539242C00B9A1C1 /* AppDelegate.swift in Sources */,
+				F8241A1D25432AD30090B619 /* Purchase.swift in Sources */,
+				F861A152253A4AF30080545D /* Ticket.swift in Sources */,
+				F8BA30312539242C00B9A1C1 /* SceneDelegate.swift in Sources */,
+				F8241A2D25439F830090B619 /* DeViewController.swift in Sources */,
+				F861A1442539F1E70080545D /* ModelManager.swift in Sources */,
+				F86185B825424E4400DAE95A /* ManagerViewController.swift in Sources */,
+				F86185C525424F3A00DAE95A /* HistoryViewController.swift in Sources */,
+				F8089E9E254250C8007CE010 /* ResViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BA303D2539242D00B9A1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BA30462539242D00B9A1C1 /* RaptorsTicketsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BA30482539242D00B9A1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BA30512539242D00B9A1C1 /* RaptorsTicketsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BA30432539242D00B9A1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BA302A2539242C00B9A1C1 /* RaptorsTicketsApp */;
+			targetProxy = F8BA30422539242D00B9A1C1 /* PBXContainerItemProxy */;
+		};
+		F8BA304E2539242D00B9A1C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BA302A2539242C00B9A1C1 /* RaptorsTicketsApp */;
+			targetProxy = F8BA304D2539242D00B9A1C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8BA30342539242C00B9A1C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BA30352539242C00B9A1C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8BA30392539242D00B9A1C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BA303A2539242D00B9A1C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8BA30532539242D00B9A1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8BA30542539242D00B9A1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8BA30562539242D00B9A1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RaptorsTicketsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.humber.RaptorsTicketsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8BA30572539242D00B9A1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J4R633UF64;
+				INFOPLIST_FILE = RaptorsTicketsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.humber.RaptorsTicketsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8BA30592539242D00B9A1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RaptorsTicketsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.humber.RaptorsTicketsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaptorsTicketsApp.app/RaptorsTicketsApp";
+			};
+			name = Debug;
+		};
+		F8BA305A2539242D00B9A1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RaptorsTicketsAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.humber.RaptorsTicketsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaptorsTicketsApp.app/RaptorsTicketsApp";
+			};
+			name = Release;
+		};
+		F8BA305C2539242D00B9A1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RaptorsTicketsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.humber.RaptorsTicketsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaptorsTicketsApp;
+			};
+			name = Debug;
+		};
+		F8BA305D2539242D00B9A1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RaptorsTicketsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.humber.RaptorsTicketsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RaptorsTicketsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BA30262539242C00B9A1C1 /* Build configuration list for PBXProject "RaptorsTicketsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BA30532539242D00B9A1C1 /* Debug */,
+				F8BA30542539242D00B9A1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BA30552539242D00B9A1C1 /* Build configuration list for PBXNativeTarget "RaptorsTicketsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BA30562539242D00B9A1C1 /* Debug */,
+				F8BA30572539242D00B9A1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BA30582539242D00B9A1C1 /* Build configuration list for PBXNativeTarget "RaptorsTicketsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BA30592539242D00B9A1C1 /* Debug */,
+				F8BA305A2539242D00B9A1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BA305B2539242D00B9A1C1 /* Build configuration list for PBXNativeTarget "RaptorsTicketsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BA305C2539242D00B9A1C1 /* Debug */,
+				F8BA305D2539242D00B9A1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BA30232539242C00B9A1C1 /* Project object */;
+}
