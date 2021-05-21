@@ -64,6 +64,7 @@
 		F8BA30502539242D00B9A1C1 /* RaptorsTicketsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaptorsTicketsAppUITests.swift; sourceTree = "<group>"; };
 		F8BA30522539242D00B9A1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8E58AF32651DAA2002CABE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8FAD3FD2658142E001CB431 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		F8BA30222539242C00B9A1C1 = {
 			isa = PBXGroup;
 			children = (
+				F8FAD3FD2658142E001CB431 /* License */,
 				F88020C52651DB6500FFA6CB /* Images */,
 				F8E58AF32651DAA2002CABE4 /* README.md */,
 				F8089EC725426B54007CE010 /* Ticket Class */,

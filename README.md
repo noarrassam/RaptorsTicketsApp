@@ -15,6 +15,12 @@ It’s a Raptors Tickets app that can be used to purchase tickets by clicking on
 * Pickerview Controller.
 * Push segue and Module Segue.
 
+## License & Copyright
+
+© Noar Rassam
+
+Licensed under the [MIT License](License).
+
 ## Features
 
 ## **Buy Tickets**
