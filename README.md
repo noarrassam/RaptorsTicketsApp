@@ -4,7 +4,7 @@
 
 
 ## Description
-It’s a Raptors Tickets app that can be used to by a user to purchase tickets by specifying the ticket type on the picker view, depending on the number of tickets remaining and price for each ticket.
+It is the Raptors Tickets app that a user can use to purchase tickets depending on the number of tickets and their respective prices.
 
 ## Functionalities
 
